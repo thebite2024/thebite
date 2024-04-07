@@ -1,0 +1,102 @@
+/* Reset de estilos */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f8f8f8; /* Color de fondo ligeramente más claro */
+}
+
+.header {
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.navbar {
+  background: #333;
+  padding: 10px 0; /* Reducción del espacio en el navbar */
+}
+
+.navbar-list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar-item {
+  margin: 0 15px; /* Mayor espacio entre elementos del navbar */
+}
+
+.navbar-link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.about {
+  padding: 20px;
+  text-align: center;
+}
+
+.about-title {
+  color: #333; /* Cambio del color del título para mayor contraste */
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap; /* Permite que los productos se ajusten al tamaño de la pantalla */
+  justify-content: center;
+  padding: 20px;
+}
+
+.product {
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid #ccc; /* Agregado un borde a los productos */
+  border-radius: 5px; /* Esquinas redondeadas para los productos */
+  background-color: #fff; /* Fondo blanco para los productos */
+  max-width: 300px; /* Ancho máximo para los productos */
+  width: 100%; /* Ajuste para dispositivos pequeños */
+}
+
+.product-image {
+  max-width: 100%; /* Para asegurar que las imágenes de los productos se ajusten al contenedor */
+  margin-bottom: 10px; /* Espacio adicional debajo de la imagen del producto */
+  border-radius: 5px; /* Esquinas redondeadas para las imágenes */
+}
+
+.product-name {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.product-price {
+  color: #007bff; /* Color azul para el precio */
+  margin-bottom: 10px;
+}
+
+.product-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.product-button:hover {
+  background-color: #0056b3;
+}
+
+.footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
